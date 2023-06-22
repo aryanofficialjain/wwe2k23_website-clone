@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: red; */
+}
+
+/* utility classes */
+.flex{
+    display: flex;
+}
+
+
+/* custom css */
+#navbar{
+    flex-direction: row;
+    height: 50px;
+    background-color: black;
+    position:sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.left-logo{
+    /* background-color: red; */
+    width:10%;
+}
+
+.left-logo img{
+    width: 100%;
+}
+
+.rightnav{
+    /* background-color: red; */
+    align-items: center;
+    padding: 4px 10px; 
+    /* width: 20%; */
+
+    justify-content: space-between;
+}
+
+#nav-btn{
+    padding: 7px 15px;
+    margin: 0px 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: none;
+    background: black;
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px red;
+    color:yellow;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+#nav-btn:hover{
+    box-shadow: none;
+    color:white;
+    border: none;
+}
+
+.fa-sharp{
+    font-size: 1.2rem;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+/* background image  */
+.bg-image{
+    background: url('https://assets.2k.com/1a6ngf98576c/38uUDEXCFnLxuEIphHVPUO/a852206dcf4e928f65d7f4edfdbc2a7d/WWE23-WEBSITE-HOMEPAGE-MARQUEE-TALL-DESKTOP.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 130px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.bg-image a{
+    color: white;
+    font-weight: bolder;
+    padding: 10px 14px;
+    background-color: red;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-stretch:expanded;
+    box-shadow: 0px 0px 10px red;
+
+}
+
+.bg-image a:hover{
+    color:black;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
